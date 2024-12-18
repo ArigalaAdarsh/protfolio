@@ -6,7 +6,9 @@
     </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
+    <meta name="description" content="Portfolio of Sunil, an Speech and Gen AI Engineer with a focus on solving real-world problems using Artificial Intelligence.">
+
+    <title>Mr. Champ</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="img/hero.png" type="image/x-icon">
 
@@ -22,134 +24,180 @@
 <body>
     <div class="overlay"></div>
     <header>
-        <a href="index.html" class="logo"><span>Mr.Techy</span></a>
+        <a href="#" class="logo"><span>Mr. Champ</span></a>
         <ul class="navlist">
-            <li><a  href="index.html/#home" class="active">Home</a></li>
-            <li><a  href="index.html#about">About</a></li>
-            <li><a   href="index.html#services">Projects</a></li>
-            <!-- <li><a href="#portfolio">Portfolio</a></li> -->
-            <li><a  href="index.html#blog">Blog</a></li>
-            <li><a href="index.html#contact">Contact</a></li>
+            <li><a  href="index.html" class="active">Home</a></li>
+            <li><a  href="index.html">About</a></li>
+            <li><a   href="index.html">Projects</a></li>
+            <li><a   href="index.html">Career Milestones</a></li>
+            <li><a   href="index.html"> Community Engagement</a></li>
+            <li><a href="https://drive.google.com/file/d/1Zw67lyx4bDHH-PkIPlRCnD562C-k7hXQ/view?usp=sharing">CV</a></li> 
+            <li><a href="#contact">Contact</a></li>
         </ul>
-        <!-- <div class="right-header">
-            <a href="#" class="btn">Let's chat <i class='bx bx-message-dots' ></i></a>
-            <div class="menu-icon">
-                <div class="bar"></div>
-            </div>
-        </div> -->
+        
     </header>
- 
-    <section class="portfolio" id="services">
+    <section class="portfolio">
         <div class="main-text">
-            <h2 class="heading">Highlights of My Projects</h2>
+            <h2 class="heading" >Ongoing Projects</h2>
             <center><hr style="border: #8a2be2 2px solid; width:10%;"></center>
         </div>
-        <!-- <div class="fillter-buttons">
-            <button class="button mixitup-control-active" data-filter="all">All Work</button>
-            <button class="button" data-filter=".web">Web Development</button>
-            <button class="button" data-filter=".uiux">UI/UX Design</button>
-            <button class="button" data-filter=".branding">Branding Design</button>
-        </div> -->
-
-        <div class="portfolio-gallery">
-            
-      
-            <div class="portfolio-box mix uiux">
+        
+        <div class="portfolio-gallery" style="display: flex; gap: 30px; justify-content: space-between; flex-wrap: wrap; margin-top: ;">
+            <!-- Automatic Audio Captioning Section -->
+            <div class="portfolio-box mix uiux" style="flex: 1; min-width: 48%; margin-bottom: 30px;">
                 <div class="portfolio-content">
-                    <h3>Machine Translation System for Tribal Languages</h3>
-                    <p>The project aims to develop machine translation systems for four Indian tribal 
-                        languages namely Lambani, Soliga, Kui, and Mundri, in collaboration with the Ministry of Electronics and IT,India.</p>
-                    <a href="#" class="readMore">View More</a>
+                    <h3>Automatic Audio Captioning</h3>
+                    <p style="text-align: justify;">Working on a project as part of the DCASE (Detection and Classification of Acoustic Scenes and Events) challenge, which generates descriptive captions for audio clips by analyzing audio features. The system uses deep learning models to transcribe and describe the content of the audio automatically. The goal is to assist accessibility and improve user experiences in multimedia content by providing real-time audio captions, aligning with the task of sound event detection and classification in the DCASE challenge.</p>
                 </div>
                 <div class="portfolio-img">
-                    <img src="img/projects/machine_translation.png" alt="">
+                    <img src="img/projects/AAC.png" alt="Automatic Audio Captioning" style="width: 100%; max-width: 400px; height: auto; object-fit: contain;">  
+                </div>
+                <a target="_blank" href="https://github.com/ArigalaAdarsh/Smart_Attendance_Management_System" class="read-more">View More</a>
+            </div>
+            
+            <!-- Eye Lens Quality Control Section -->
+            <div class="portfolio-box mix uiux" style="flex: 1; min-width: 48%; margin-bottom: 30px;">
+                <div class="portfolio-content">
+                    <h3>Improving Eye Lens Quality Control with AI: Automated Detection of Defective Lenses</h3>
+                    <p style="text-align: justify;">This project involves the use of computer vision and deep learning to automate the detection of defective eye lenses during the manufacturing process. The AI model identifies defects such as scratches, cracks, and other imperfections, improving the overall quality control process and reducing human error.</p>
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/projects/lens.jpg" alt="Eye Lens Quality Control with AI" style="width: 100%; height: 400px; object-fit: cover;">
                 </div>
             </div>
-  
+        </div>
+    </section>
+    
+    <section class="portfolio" id="services">
+        <div class="main-text">
+            <h2 class="heading" style="margin-top:-60px;">Highlights of My Projects</h2>
+            <center><hr style="border: #8a2be2 2px solid; width:10%;"></center>
+        </div>
+        <div class="portfolio-gallery">
             <div class="portfolio-box mix uiux">
                 <div class="portfolio-content">
-                    <h3>Cricket Worldcup Data Analysis Application</h3>
-                    <p> This project dives deep into Cricket World Cup data, deriving insights from 1975 to 2019. From overall tournament performance to head to head insights</p>
-                    <a href="#" class="readMore">View More</a>
+                    <h3>Mental Health Assisting Chatbot</h3>
+                    <p>Developed an interactive chatbot using Streamlit to assist students with depression, utilizing NLP for query understanding, personalized suggestions, and a depression assessment tool for sentiment analysis and resource recommendations.</p>
+                    <a href="https://github.com/ArigalaAdarsh/Mental-Health-Assisting-Agent-NLP-Chatbot" class="read-more">View More</a>
                 </div>
                 <div class="portfolio-img">
-                    <img src="img/projects/cricket.jpg" alt="">
+                    <img src="img/projects/chatbot.png" alt="">
                 </div>
-            </div>     
-
+            </div>
+            
+         
             <div class="portfolio-box mix uiux">
                 <div class="portfolio-content">
-                    <h3>Google Image Scrapping</h3>
-                    <p> This application allows you to input a search query, and it scrapes images related to the query from Google Images. 
-                        Perfect for quickly gathering image data for various purposes</p>
-                    <a href="#" class="readMore">View More</a>
+                    <h3>Sound Event Detection using PANN CNN14</h3>
+                    <p>Fine-tuned the PANN CNN14 model for sound event detection across 18 classes, integrated it with ROS for real-time classification, and enhanced robustness through data augmentation and feature extraction.</p>
+                    <p> To maintain privacy, certain code details have been omitted.</p>
                 </div>
                 <div class="portfolio-img">
-                    <img src="img/projects/image_scrapping.jpg" alt="">
-                </div>
-            </div>     
-              <div class="portfolio-box mix uiux">
-                <div class="portfolio-content">
-                    <h3>Facial Recognition Outpass Management System</h3>
-                    <p>This Application main aim is to streamline and enhance the outpass issuance process.
-Using this application,we can efficiently monitor student movements within the campus premises.</p>
-                    <a href="#" class="readMore">View More</a>
-                </div>
-                <div class="portfolio-img">
-                    <img src="img/projects/outpass.jpg" alt="">
+                    <img src="img/projects/sed.png" style="width: 600px;height: 200px;" alt="">
                 </div>
             </div> 
             <div class="portfolio-box mix uiux">
                 <div class="portfolio-content">
-                    <h3>Flipkart Products Data Scrapping</h3>
-                    <p> This project involves scraping product information from Flipkart using Python, Pyppeteer, and BeautifulSoup. It can gather details like product names, prices, ratings, description and images urls! </p>
-                    <a href="#" class="readMore">View More</a>
+                    <h3>Smart Attendance Management System</h3>
+                    <p>Developed a system to enhance attendance management efficiency, accuracy, and convenience, featuring a user-friendly interface for managing records and generating reports, using HTML, CSS, JavaScript, MS SQL Server, and Flask.</p>
+                    <a target="_blank" href="https://github.com/ArigalaAdarsh/Smart_Attendance_Management_System" class="read-more">View More</a>
                 </div>
                 <div class="portfolio-img">
-                    <img src="img/projects/flipkart.jpg" alt="">
+                    <img src="img/projects/sam.png" alt="">
                 </div>
-            </div>  
+            </div> 
+            
             <div class="portfolio-box mix uiux">
                 <div class="portfolio-content">
-                    <h3>Alumni Cell Website,IIIT RK Valley.</h3>
-                    <p> This project involves scraping product information from Flipkart using Python, Pyppeteer, and BeautifulSoup. It can gather details like product names, prices, ratings, description and images urls! </p>
-                    <a href="#" class="readMore">View More</a>
+                    <h3>Stress Analysis Project</h3>
+                    <p>Conducted stress analysis based on data from 800 participants, identifying key stressors, their impact, and changes in behavior, with a focus on age group differences.</p>
+                    <a target="_blank" href="https://github.com/ArigalaAdarsh/Stress-Analysis-Research-Project" class="read-more">View More</a>
                 </div>
                 <div class="portfolio-img">
-                    <img src="img/projects/rguraa.png" alt="">
+                    <img src="img/projects/stress.jpg" alt="">
                 </div>
-            </div>        
+            </div>
+            <div class="portfolio-box mix uiux">
+                <div class="portfolio-content">
+                    <h3>Time Series Analysis for Sales Forecasting at Walmart</h3>
+                    <p>Analyzed time series data from 45 Walmart stores using SARIMAX, informing sales forecasting and strategic decisions.</p>
+                    <a target="_blank" href="https://github.com/ArigalaAdarsh/Walmart-Analysis" class="read-more">View More</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/projects/walmart.png" alt="">
+                </div>
+            </div>
+            <div class="portfolio-box mix uiux">
+                <div class="portfolio-content">
+                    <h3>Global Superstore Sales Dashboard </h3>
+                    <p>This project involves creating an interactive sales dashboard using Power BI to visualize and analyze sales data from a global superstore.</p>
+                    <a target="_blank" href="https://www.linkedin.com/posts/arigala-adarsh-174632214_powerbi-dataanalytics-salesdashboard-activity-7084932729439485952-hmzV?utm_source=share&utm_medium=member_desktop" class="read-more">View More</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/projects/global_super_store.png" alt="">
+                </div>
+            </div>
+           
+              
         </div><br><br>
-
+ 
     </section>
-    </section>
-        <section class="down-box" id="contact">
-        <div class="contactSkills">
-            <div class="contact-info">
-                <div class="main-text">
-                    <h2 class="heading">Contact Me</h2>
-                    <span>get in touch with me</span>
-                </div>
-                <form action="#">
-                    <div class="input-box">
-                        <input type="text" placeholder="First Name">
-                        <input type="text" placeholder="Last Name">
-                    </div>
-                    <input type="email" placeholder="Email">
-                    <input type="text" placeholder="Subject">
-                    <textarea name="#" id="" cols="30" rows="10">
-                    </textarea>
-                    <div class="formBtn">
-                        <button type="submit" class="btn">Send Message</button>
-                    </div>
-                </form>
+    <section style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin-top: -80px;"id="contact" >
+        <h2 class="section-heading" style="width: 100%; text-align: center;">Contact Information</h2>
+        <center><hr style="border: #8a2be2 2px solid; width:10%;"></center><br>
+        
+        <!-- Personal Details Card -->
+        <div class="personal-details" style="flex: 1; padding: 20px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            <h3 style="margin-bottom: 15px;">Personal Details</h3>
+            <div style="margin-bottom: 15px; display: flex; align-items: center;">
+                <i class="bx bx-user" style="font-size: 24px; color: #ac5004; margin-right: 10px;"></i>
+                <p style="font-size: 18px; color: #333;"><strong>Name:</strong> Arigala Adarsh</p>
             </div>
             
+            <div style="margin-bottom: 20px; display: flex; align-items: center;">
+                <i class="bx bx-envelope" style="font-size: 24px; color: #ac5004; margin-right: 10px;"></i>
+                <p style="font-size: 18px; color: #333;"><strong>Email:</strong> <a href="mailto:arigalaadarsh780@gmail.com" style="color: #4A90E2; text-decoration: none;">arigalaadarsh780@gmail.com</a></p>
+            </div>
+            
+            <div style="margin-bottom: 20px; display: flex; align-items: center;">
+                <i class="bx bxs-graduation" style="font-size: 24px; color: #ac5004; margin-right: 10px;"></i>
+                <p style="font-size: 18px; color: #333;"><strong>Education:</strong> B.Tech in Computer Science and Engineering, 2025 Passout</p>
+            </div>
+    
+            
+            <div class="social-media" style="margin-top: 30px;">
+                <div class="bg-icon">
+                    <a target="_blank" href="https://www.instagram.com/arigalaadarsh"><i class='bx bxl-instagram'></i></a>
+                    <span></span>
+                </div>
+                <div class="bg-icon">
+                    <a target="_blank" href="https://github.com/ArigalaAdarsh"><i class='bx bxl-github'></i></a>
+                    <span></span>
+                </div>
+                <div class="bg-icon">
+                    <a target="_blank" href="https://www.linkedin.com/in/arigala-adarsh-174632214/"><i class='bx bxl-linkedin'></i></a>
+                    <span></span>
+                </div>
+                <div class="bg-icon">
+                    <a target="_blank" href="https://leetcode.com/u/arigalaadarsh780/">
+                        <img src="icons/leetcode.png" alt="LeetCode" style="width: 30px; height: 30px;" />
+                    </a>
+                    <span></span>
+                </div>
+            </div>
         </div>
+        <center>
+        <!-- Google Form for Queries Card -->
+        <div class="contact-box" style="flex: 1; padding: 20px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            <h3 style="margin-bottom: 50px;margin-top: 65px;" >If you have any questions or queries, feel free to share them here:</h3>
+            <a href="https://forms.gle/FvjipkyxofLazZXZ8" target="_blank" class="btn" style="padding: 10px 20px; background-color: #4CAF50; color: white; border-radius: 5px; text-decoration: none; display: inline-block; margin-bottom: 40px">Share Your Queries <i class='bx bx-right-arrow-alt'></i></a>
+        </div></center>
     </section>
+    
+    
 
     <footer>
-        <p>Copyright © 2024 by <span><a href="https://linkedin.com/in/sunilthetechy" target="_blank">Sunil The Techy</a></span> All Right Reservd.</p>
+        <p>Copyright © 2024 by <span><a href="https://www.linkedin.com/in/arigala-adarsh-174632214/"" target="_blank">Adarsh@AI</a></span> All Right Reservd.</p>
     </footer>
 
     <div id="progress">

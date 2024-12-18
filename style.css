@@ -27,7 +27,7 @@ a{
 }
 
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background: var(--bg-color);
     overflow-x: hidden;
 }
@@ -132,6 +132,16 @@ ul.navlist{
     opacity: 0;
 }
 
+hr{
+    margin-bottom: 20px;
+}
+.heading{
+    margin-top: 20px;
+}
+
+.education-item{
+    margin-top: 20px;
+}
 
 /* ==================== home section css code ============================ */
 section{
@@ -177,17 +187,7 @@ section{
 
 }
 
-/* .text-animate h2::before{
-    content: "";
-    position: absolute;
-    top: 7px;
-    left: -3px;
-    width: 0;
-    height: 70%;
-    border-right: 2px solid var(--main-color);
-} */
-
-
+ 
 .hero-info p{
     font-size: .9rem;
     color: var(--font-color);
@@ -614,7 +614,21 @@ section{
     right: 6%;
 }
 
+/*======================Workshop =============================================*/
+.image-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
 
+.zoom-image {
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-container:hover .zoom-image {
+    transform: scale(1.2); /* Zoom effect on hover */
+}
 /* ==================== Services section css code ============================ */
 .fillter-buttons{
     text-align: center;
@@ -1011,6 +1025,40 @@ h2.counter span{
     font-weight: 500;
 }
 
+/*======================= Certificate Section =============== */
+.certificates {
+    margin: 20px;
+}
+
+.certificate-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.certificate-card {
+    flex: 1;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.certificate-image {
+    width: 350px;
+    height: auto;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.zoomed {
+    transform: scale(2);
+    z-index: 10;
+}
+
+
 /*======================= footer ============================ */
 footer{
     text-align: center;
@@ -1079,18 +1127,20 @@ footer{
 
 .skill-list {
     list-style-type: none;
-    padding: 0;
+    padding: 0px;
 }
 
 .skill-item {
-    background-color: #188cff;
+    background-color: #fc8946;
     color: #fff;
     border-radius: 20px;
-    padding: 5px 10px;
+    padding: 10px 15px;
     margin: 5px;
     display: inline-block;
     text-align: center;
+    
 }
+
 
 /* Media query for mobile devices */
 @media (max-width: 768px) {
